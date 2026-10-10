@@ -1,10 +1,7 @@
-#include <bits/stdc++.h>
-using namespace std;
-int main(){ios::sync_with_stdio(false);cin.tie(nullptr);
-    string input;
-    // Read entire stdin
-    std::ostringstream ss;
-    ss << cin.rdbuf();
-    cout << ss.str();
+#include <iostream>
+int main(){
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+    std::cout << std::cin.rdbuf();
     return 0;
 }
